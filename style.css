@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    overflow: hidden;
+    font-family: "Rubik", sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    gap: 530px;
+    position: absolute;
+    top: 37px;
+    font-family: "Rubik", sans-serif;
+}
+main{
+    height: 500px;
+    position: relative;
+    top: 200px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    color: #000000b3;
+    height: 30px;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.hii {
+    font-size: 50px;
+    width: 500px;
+    white-space: nowrap;
+    transition: all 1s;
+    color: rgba(2, 84, 2, 0.753);
+    font-weight: 700;
+    text-shadow:8px 5px 8px rgb(95, 95, 95);
+}
+.hii:hover{
+    transform: rotate3d(1, 0,1 , 5deg);
+}
+
+footer {
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: "Rubik", sans-serif;
+    color: #000000b3;
+    height: 20px;
+}
+.navcom{
+    border-radius: 10px;
+    background-color:white; 
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.3s;
+    font-weight: 400;
+}
+
+.navcom:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.name{
+    position: absolute;
+    top: -32px;
+    left: 39px;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: none;
+    width: 700px;
+    color: #000942;
+    height: 300px;
+}
+.greet{
+    font-size: 70px;
+    font-weight: 600;
+    height: 100px;
+    width: 100px;
+    transition: all 0.8s;
+}
+.Ankush{
+    font-size: 110px;
+    font-weight: 700;
+    height: 200px;
+    width: 700px;
+    position: relative;
+    top: -203px;
+    transition: all 1s;
+}
+.greet:hover{
+    transform: scale(1.1);
+}
+.Ankush:hover{
+    transform: scale(1.15);
+}
+.pic{
+    width: 400px;
+    position: absolute;
+    left: 901px;
+    top: -60px;
+    
+    
+}
+.colorbox{
+    width: 600px;
+    height: 600px;
+    background-color: #ffae009c;
+    transform: rotateZ(45deg);
+    position: absolute;
+    right: -40px;
+    z-index: -1;
+    top: -150px;
+}
+.para1{
+    width: 230px;
+    font-family: "Rubik", sans-serif;
+    position: absolute;
+    right: 30px;
+    top: 47px;
+    color: #000942;
+    transition: all 1s;
+}
+.para1.hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.para2{
+    width: 230px;
+    font-family: "Rubik", sans-serif;
+    color: #000942;
+    position: absolute;
+    right:30px;
+    top: 224px;
+}
+.para2.hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.note{
+    font-family: "Rubik", sans-serif;
+    color: #000942;
+    display: flex;
+    justify-content: center;
+}
+.cartoon{
+    width: 350px;
+    position: absolute;
+    left: 579px;
+    transition: all 2s;
+    top: 80px;
+}
+.cartoon:hover{
+    transform: translateY(-40px);
+}
+.form{
+    width: 400px;
+    height: 330px;
+    border: 1px solid gray;
+    position: absolute;
+    left: 562px;
+    top: -80px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(180, 151, 155);
+}
+.drop{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(54, 7, 90);
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.send{
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    border: none;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.5s;
+}
+.in{
+    border-radius: 5px;
+    width: 250px;
+    border: 1px solid rgb(214, 209, 209);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.send:hover{
+    cursor: pointer;
+    background-color: rgb(214, 241, 255);
+    color:rgb(0, 123, 255) ;
+    transform: scale(0.9);
+}
+.sendmore{
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    border: none;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.5s;
+    position: absolute;
+    left: 168px;
+    top: 268px;
+    margin-top: 30px;
+}
+.sendmore:hover{
+    cursor: pointer;
+    background-color: rgb(214, 241, 255);
+    color:rgb(0, 123, 255) ;
+    transform: scale(0.9);
+}
+.thanks{
+    color: rgb(75, 75, 75);
+}
+.mycontact{
+    width: 700px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    top: 320px;
+    left: 410px;
+}
+.logo{
+    width: 30px;
+}
+.contactme{
+    margin-right: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(54, 7, 90);
+}

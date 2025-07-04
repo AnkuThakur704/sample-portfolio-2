@@ -4,7 +4,7 @@ function about() {
             <p class="greet">Hi</p>
             <p class="Ankush">I'm <b>Ankush</b></p>
         </div>
-        <img src="/utilities/Adobe Express - file-modified.png" alt="" class="pic">
+        <img src="utilities/Adobe-Express-file-modified.png" alt="" class="pic">
         <div class="colorbox"></div>
         <p class="para1">Hey! I’m just a curious human currently on a wild journey of learning how to make computers do
             cool stuff. I recently started exploring the world of code—and it’s been a mix of “why
@@ -15,7 +15,7 @@ function about() {
 }
 function projects() {
     main.innerHTML = `<p class="note">This section is currently under construction! I’m actively learning and plan to showcase my projects here soon. <br> Stay tuned — the bugs will be interesting, and so will the breakthroughs!</p>
-        <img class="cartoon" src="/utilities/programmer cartoon.webp" alt="">`;
+        <img class="cartoon" src="utilities/programmer-cartoon.webp" alt="">`;
     
 }
 
